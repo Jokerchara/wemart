@@ -59,9 +59,10 @@
                   <div class="form-group mb-0">
                     <div class="checkbox p-0">
                       <input id="checkbox1" type="checkbox">
-                      <label class="text-muted" for="checkbox1">Remember password</label>
+                      <label class="text-muted" for="checkbox1">Remember password</label> 
+                      <p class="mt-0 mb-4 text-center"><a class="ms-2" href="/forget">Forget Password</a>
                     </div>
-                    <button class="btn btn-primary btn-block w-100" type="submit">Sign in</button>
+                    <button class="btn btn-primary btn-block w-100" type="submit">Sign in</button> 
                   </div>
                   <h6 class="text-muted mt-4 or">Or Sign in with</h6>
                   <div class="social mt-4">

@@ -14,6 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('login');
+    return view('auth/login');
 });
+
+Route::get('/forget', function () {
+    return view('auth/forget');
+});
+
+// route::resource('forget', 'ForgetController');
+// Route::get('/forget', 'ForgetController@index')->name('forget');
 
