@@ -60,7 +60,7 @@
                     <div class="checkbox p-0">
                       <input id="checkbox1" type="checkbox">
                       <label class="text-muted" for="checkbox1">Remember password</label> 
-                      <p class="mt-0 mb-4 text-center"><a class="ms-2" href="/forget">Forget Password</a>
+                      <p class="mt-0 mb-4 text-center"><a class="ms-2" href="/forget">Forgot Your Password?</a>
                     </div>
                     <button class="btn btn-primary btn-block w-100" type="submit">Sign in</button> 
                   </div>

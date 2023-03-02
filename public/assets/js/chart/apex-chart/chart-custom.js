@@ -1497,10 +1497,10 @@ chart.render();
 // area spaline chart
 var options1 = {
     chart: {
-        height: 350,
+        height: 375,
         type: 'area',
         toolbar:{
-          show: false
+          show: true
         }
     },
     dataLabels: {
@@ -1510,16 +1510,15 @@ var options1 = {
         curve: 'smooth'
     },
     series: [{
-        name: 'series1',
-        data: [31, 40, 28, 51, 42, 109, 100]
+        name: 'New Partners',
+        data: [31, 40, 28, 51, 200, 109, 140]
     }, {
-        name: 'series2',
+        name: 'Partners Activate',
         data: [11, 32, 45, 32, 34, 52, 41]
     }],
 
     xaxis: {
-        type: 'datetime',
-        categories: ["2018-09-19T00:00:00", "2018-09-19T01:30:00", "2018-09-19T02:30:00", "2018-09-19T03:30:00", "2018-09-19T04:30:00", "2018-09-19T05:30:00", "2018-09-19T06:30:00"],
+        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Des'],
     },
     tooltip: {
         x: {

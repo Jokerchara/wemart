@@ -5,7 +5,7 @@ $(document).ready(function() {
     $('#basic-2').DataTable({
         "paging":   true,
         "ordering": false,
-        "info":     false
+        "info":     true
     });
     $('#basic-3').DataTable({
         "order": [[ 3, "desc" ]]
